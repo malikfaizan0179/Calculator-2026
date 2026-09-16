@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#334155" stroke-width="4" stroke-opacity="0.4" />
+
+  <!-- Calculator Screen -->
+  <rect x="72" y="72" width="368" height="110" rx="24" fill="url(#screenGrad)" stroke="#334155" stroke-width="3" />
+  <!-- Display readout indicator -->
+  <text x="410" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="46" font-weight="bold" fill="#f8fafc" text-anchor="end">123,456</text>
+
+  <!-- Keypad Grid -->
+  <!-- Row 1 -->
+  <rect x="72" y="214" width="76" height="60" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="110" y="254" font-family="sans-serif" font-size="22" font-weight="bold" fill="#f43f5e" text-anchor="middle">AC</text>
+
+  <rect x="169" y="214" width="76" height="60" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="207" y="254" font-family="sans-serif" font-size="22" font-weight="bold" fill="#94a3b8" text-anchor="middle">±</text>
+
+  <rect x="266" y="214" width="76" height="60" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="304" y="254" font-family="sans-serif" font-size="22" font-weight="bold" fill="#06b6d4" text-anchor="middle">%</text>
+
+  <rect x="364" y="214" width="76" height="60" rx="16" fill="url(#accentGrad)" />
+  <text x="402" y="255" font-family="sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">÷</text>
+
+  <!-- Row 2 -->
+  <rect x="72" y="288" width="76" height="60" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="110" y="328" font-family="sans-serif" font-size="24" font-weight="bold" fill="#e2e8f0" text-anchor="middle">7</text>
+
+  <rect x="169" y="288" width="76" height="60" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="207" y="328" font-family="sans-serif" font-size="24" font-weight="bold" fill="#e2e8f0" text-anchor="middle">8</text>
+
+  <rect x="266" y="288" width="76" height="60" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="304" y="328" font-family="sans-serif" font-size="24" font-weight="bold" fill="#e2e8f0" text-anchor="middle">9</text>
+
+  <rect x="364" y="288" width="76" height="60" rx="16" fill="url(#accentGrad)" />
+  <text x="402" y="330" font-family="sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">×</text>
+
+  <!-- Row 3 -->
+  <rect x="72" y="362" width="76" height="60" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="110" y="402" font-family="sans-serif" font-size="24" font-weight="bold" fill="#e2e8f0" text-anchor="middle">4</text>
+
+  <rect x="169" y="362" width="76" height="60" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="207" y="402" font-family="sans-serif" font-size="24" font-weight="bold" fill="#e2e8f0" text-anchor="middle">5</text>
+
+  <rect x="266" y="362" width="76" height="60" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="304" y="402" font-family="sans-serif" font-size="24" font-weight="bold" fill="#e2e8f0" text-anchor="middle">6</text>
+
+  <rect x="364" y="362" width="76" height="60" rx="16" fill="url(#accentGrad)" />
+  <text x="402" y="404" font-family="sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">−</text>
+
+  <!-- Row 4 -->
+  <rect x="72" y="436" width="173" height="48" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="158" y="468" font-family="sans-serif" font-size="22" font-weight="bold" fill="#e2e8f0" text-anchor="middle">0</text>
+
+  <rect x="266" y="436" width="76" height="48" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="304" y="468" font-family="sans-serif" font-size="24" font-weight="bold" fill="#e2e8f0" text-anchor="middle">.</text>
+
+  <rect x="364" y="436" width="76" height="48" rx="16" fill="url(#accentGrad)" />
+  <text x="402" y="469" font-family="sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">=</text>
+</svg>
